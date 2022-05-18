@@ -8,22 +8,22 @@ double nickel = 0.05;
 double dime = 0.10;
 double quarter = 0.25;
 
-double a, b, c, d, e, p, q;
 double sum;
-double p = a * penny;
-double n = b * nickel;
-double d = c * dime;
-double q = e * quarter;
+double p;
+double n;
+double d;
+double q;
+
 
 cout << "Number of penny: ";
-cin >> a;
+cin >>  p;
 cout << "Number of nickel: ";
-cin >> b;
+cin >> n;
 cout << "Number of dime: ";
-cin >> c;
+cin >> d;
 cout << "Number of quarter: ";
-cin >> e;
- sum = p + n + d + q;
- cout << "Sum of coins: "; <<sum;
+cin >> q;
+ sum = (p * penny) + (n * nickel) + (d *dime) + (q * quarter);
+ cout << "Sum of coins: " << sum;
 return 0;
 }
